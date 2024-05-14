@@ -1,0 +1,121 @@
+
+server_general_dont_permission:
+  - "#e83a05✘ &fУ вас #e83a05нет прав&f для выполнения этой команды."
+
+server_general_not_player:
+  - "#e83a05✘ &fИгрок #e83a05не найден&f проверьте никнейм."
+
+server_general_command_locked:
+  - "#e83a05✘ &fУ вас #e83a05нет прав&f для выполнения этой команды."
+
+server_general_moderation_locked_message_received:
+  - "#a3c4c3&l #f24033⚠ &fИгрок &9%player% &fиспользует &9%cmd%"
+  - "#a3c4c3&l #f24033⚠ &fДополнительная &cинформация &fнаправленна в дискорд!"
+
+localization_reloaded:
+  - "&eЛокализация перезагружена"
+
+localization_reloading_error:
+  - "Ошибка перезагрузки локализации"
+
+
+survival_command_points_add: "$prefix$Игроку %target% §2начислено §3%amount%§f монет. Теперь его баланс §b%balance%"
+survival_command_points_take:  "$prefix$У Игрока %target% §2снято §3%amount%§f монет. Теперь его баланс §b%balance%"
+survival_command_points_zeroing:  "$prefix$Баланс игрока %target%§f обнулён! Баланс до обнуления составлял §b%balance% монет"
+survival_command_points_balance:  "$prefix$На данный монет у игрока %target%§f на балансе: §b%balance% золота"
+
+
+
+modules_bosses_spawn_message: ""
+modules_bosses_usage: ""
+modules_bosses_until_time: ""
+
+
+modules_antirelog_leave_pvp:
+  - "#a3c4c3&l #f24033⚠ &6%prefix% &f%player% &7Покинул игру во время боя и был наказан!"
+modules_antirelog_command:
+  - "#e83a05✘ &fВы #e83a05не можете&f использовать комманды во время пвп."
+modules_antirelog_busybar: "&6⚠ &7PVP-Режим активен"
+modules_antirelog_freebar: "&6⚠ &7PVP-Режим остановлен"
+modules_antirelog_start_description:
+  - "#a3c4c3&l #f24033⚠ &fВы перешли в режим &cбоя&f!"
+  - "#a3c4c3&l #f24033⚠ &fВаш противник: &f%opponent%"
+modules_antirelog_stop_description: ""
+modules_antirelog_infinity_started: ""
+modules_antirelog_infinity_stoped: ""
+
+modules_afkpool_recieve: ""
+
+modules_mobmoney_message_actionbar: "&7+ &fВы заработали &6%money% &7(%multiplayer%X) &fза убийство &6%mob%"
+
+modules_death_message_onplayer:
+  - ""
+  - "#a3c4c3&l #f24033⚠ Потрачено. &fТы умер от руки игрока #f24033%killer%"
+  - "#a3c4c3&l &fКоординаты твоей смерти: #76f233X%loc_x% Z%loc_z%"
+  - ""
+modules_death_message:
+  - ""
+  - "#a3c4c3&l #f24033⚠ %death_message%"
+  - "#a3c4c3&l &fКоординаты твоей смерти: #76f233X%loc_x% Z%loc_z%"
+  - ""
+
+modules_notification_disabled_one:
+  - "#a3c4c3&l #f24033⚠ У вас отключены все чаты!"
+modules_notification_disabled_two:
+  - "#a3c4c3&l #f24033⚠ У вас отключены два основных чата типа чата!"
+modules_notification_disabled_three:
+  - "#a3c4c3&l #f24033⚠ У вас отключен локальный чат!"
+modules_notification_disabled_four:
+  - "#a3c4c3&l #f24033⚠ У вас отключен стафф чат!"
+modules_notification_disabled_five:
+  - "#a3c4c3&l #f24033⚠ У вас отключен глобальный чат!"
+
+
+modules_death_arena_isnotarena:
+  - "#a3c4c3&l #f24033⚠ &fВы находитесь вне зоны арены!"
+modules_death_arena_untiltime:
+  - "#a3c4c3&l #f24033⚠ &fДо возможности выхода осталось: &9%until%"
+modules_death_arena_leaved:
+  - "#a3c4c3&l #8de805✔ &fВы успешно покинули арену!"
+
+modules_chat_ads: "#FBAF08[#FCD706🔥#FCFF04] &fПожалуйста, &6измените&f ваше сообщение, в нем найдена реклама."
+modules_chat_stop: "#FBAF08[#FCD706🔥#FCFF04] &fПожалуйста, &6подождите&f несколько секунд."
+modules_chat_enable_chat_one: "#FBAF08[#FCD706🔥#FCFF04] &fПожалуйста, &6включите&f глобальный чат."
+modules_chat_enable_chat_two: "#FBAF08[#FCD706🔥#FCFF04] &fПожалуйста, &6включите&f стафф чат."
+modules_chat_enable_chat_three: "#FBAF08[#FCD706🔥#FCFF04] &fПожалуйста, &6включите&f локальный чат."
+
+modules_bossbar_line_one: "#FCD05C⚡ &fПокупка доната - #5C97FC🌊 #5C97FCᴀ#5B9CFAs#5AA0F8ᴛ#59A5F5ʀ#58A9F3ᴀ#58AEF1ʟ#57B3EFɪ#56B7EDx#55BCEA.#54C0E8s#53C5E6ᴜ &7(30% Скидка)"
+modules_bossbar_line_two: "#FCD05C🔥 &fЗабирай свой бесплатный донат - #FCD05C/#F7D55Aꜰ#F1DB58ʀ#ECE055ᴇ#E6E553ᴇ&7"
+modules_bossbar_line_three: "#8da6d6🔔 &fСобирай шарды, покупай уникальные фишки - #FCD05C/sʜᴀʀᴅs"
+modules_bossbar_line_four: "#5C97FC🌊 &fНаши соц-сети - #FCD05C/ʟɪɴᴋs"
+
+player_hover_info:
+  - "#FBAF08[#FCD706🔥#FCFF04] &fСтатистика игрока %player_name%"
+  - "&f"
+  - "&f Монеты ≫ #FCD05C⛂%player_money%"
+  - "&f Шарды ≫ #FCD05C%player_shards%"
+  - "&f У/С ≫ #d48761%player_kills%#babfcc/#86d461%player_deaths%"
+  - "&f Наиграно ≫ #d836f5⌚%time_played%"
+  - "&f"
+  - "#FBAF08[#FCD706✉#FCFF04] &fНажмите, чтобы отправить сообщение"
+player_balance_command:
+  - "&#a3c4c3&l"
+  - "&#a3c4c3&l #8da6d6Ваш игровой баланс"
+  - "&#a3c4c3&l &fАстралиты: #985ce0\uD83D\uDD25%astralites%"
+  - "&#a3c4c3&l &fШарды: #FCD05C%shards%"
+  - "&#a3c4c3&l &fМонеты: #FCD05C⛂%money%"
+  - "&#a3c4c3&l"
+player_links_command:
+  - "&7 "
+  - "&#FBAF08[&#FCD706🔥&#FCFF04] &fСсылки:"
+  - "&71. &fСайт: &#FCD706astralix.su &#73694e[₪]"
+  - "&71. &fВконтакте: &#FCD706vk.com/astralixmc &#73694e[₪]"
+  - "&71. &fТелеграмм: &#FCD706t.me/ender_js &#73694e[₪]"
+  - "&7 "
+player_join_message:
+  - ""
+  - "#a3c4c3&l #33f28f+ Соединение установлено."
+  - "#a3c4c3&l &fПрисоединяйся к нам в ВК: #33f293/links"
+  - ""
+player_join_title: "&6● ● ●"
+player_ping_command: "#FBAF08[#FCD706🔥#FCFF04] &fВаш игровой пинг равен: &9%ping%мс"
